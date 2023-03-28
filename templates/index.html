@@ -1,14 +1,47 @@
-<html>
-    <title> Home </title>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+
+        }
+
+        .left {
+            float: left;
+            height: 100vh;
+            width: 50vw;
+            background-color: grey;
+        }
+
+        .right {
+            float: left;
+            height: 100vh;
+            width: 50vw;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-<h1><a href="/moon/">Moon</a> </h1>
-
-<h1><a href="/HomePro/">Home Rent</a> </h1>
-
-
+    <div class="left">
+        <a href="/moon/"> <img src="/static/img/moon.png"> </a>
+    </div>
+    <div class="right">
+        <a href="/HomePro/"> <img src="/static/img/lease.png"> </a>
+        
+    </div>
 </body>
-</html> 
+
+</html>
